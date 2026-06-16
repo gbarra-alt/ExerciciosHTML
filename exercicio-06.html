@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>My first Site</title>
-    <link rel="stylesheet" type="text/css" href=" ">
+    <link rel="stylesheet" type="text/css" href="estilos">
 </head>
 <body>
     <div class="">
@@ -46,3 +46,89 @@
         </footer>
     </div>
 </body>
+
+
+    body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background: #e6e6e6;
+    font-family: "Times New Roman", serif;
+}
+
+/* Container principal */
+body > div {
+    border: 1px solid #bdbdbd;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background: #8a8a8a;
+    color: #fff;
+    padding: 12px;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+/* Menu lateral */
+nav {
+    width: 20%;
+    float: left;
+    border-right: 1px solid #555;
+    min-height: calc(100vh - 110px);
+    padding: 15px 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 5px;
+}
+
+nav a {
+    display: block;
+    background: #8a8a8a;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+}
+
+nav a:hover {
+    background: #777;
+}
+
+/* Conteúdo */
+section {
+    margin-left: 340px;
+    padding: 25px 35px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+section p {
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+/* Rodapé */
+footer {
+    clear: both;
+    background: #8a8a8a;
+    color: white;
+    padding: 5px 10px;
+    top: 50%;
+    left: 50%;
+}
